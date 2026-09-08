@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashi General Store - Digital Poster</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #e8f5e9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Digital Poster Frame */
+        .poster-container {
+            background: linear-gradient(135deg, #1b5e20, #2e7d32);
+            width: 100%;
+            max-width: 500px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            border: 6px solid #ffd54f;
+            text-align: center;
+            color: #fff;
+        }
+
+        /* Decorative Header Banner */
+        .poster-header {
+            background-color: #ffd54f;
+            color: #1b5e20;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        /* Main Content */
+        .poster-body {
+            padding: 40px 30px;
+        }
+
+        .shop-icon {
+            font-size: 70px;
+            margin-bottom: 10px;
+            animation: bounce 2s infinite;
+        }
+
+        h1 {
+            font-size: 42px;
+            color: #ffd54f;
+            text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.4);
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #fff;
+            font-weight: 500;
+            margin-bottom: 30px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Highlighted Feature Info */
+        .features-box {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px dashed rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 35px;
+        }
+
+        .feature-item {
+            font-size: 18px;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        /* Location Section */
+        .address-box {
+            margin-bottom: 35px;
+        }
+
+        .address-title {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #ffd54f;
+            letter-spacing: 1.5px;
+            margin-bottom: 5px;
+        }
+
+        .address-text {
+            font-size: 18px;
+            line-height: 1.5;
+            font-weight: 500;
+        }
+
+        /* Action Button */
+        .btn-whatsapp-order {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background-color: #25d366; /* WhatsApp Green */
+            color: #fff;
+            text-decoration: none;
+            padding: 16px 30px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 50px;
+            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+
+        .btn-whatsapp-order:hover {
+            background-color: #128c7e;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.6);
+        }
+
+        /* Footer Text */
+        .poster-footer {
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            font-size: 13px;
+            color: #c8e6c9;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="poster-container">
+        <!-- Top Tag -->
+        <div class="poster-header">🛒 Welcome To Our Shop 🛒</div>
+
+        <div class="poster-body">
+            <!-- Graphical Visual Aspect -->
+            <div class="shop-icon">🏪</div>
+
+            <!-- Shop Credentials -->
+            <h1>शशि जनरल स्टोर</h1>
+            <p class="subtitle">(Shashi General Store)</p>
+
+            <!-- Store Highlights -->
+            <div class="features-box">
+                <div class="feature-item">🌾 शुद्ध और ताज़ा किराना सामान</div>
+                <div class="feature-item">🍯 उचित और सही दाम</div>
+                <div class="feature-item">🛍️ सामान लिस्ट भेजें, पैक मिलेगा</div>
+            </div>
+
+            <!-- Shop Location Coordinates -->
+            <div class="address-box">
+                <p class="address-title">📍 दुकान का पता:</p>
+                <p class="address-text">
+                    मांधू नगर, आगरा <br>
+                    <span style="font-size: 15px; color: #ffd54f;">(दादा कलेक्शन के पास)</span>
+                </p>
+            </div>
+
+            <!-- Immediate Call to Action Messaging Gateway -->
+            <a href="https://whatsapp.com्ते शशि जनरल स्टोर, मुझे सामान की लिस्ट भेजनी है, कृपया इसे पैक करके रखिएगा।" target="_blank" class="btn-whatsapp-order">
+                💬 WhatsApp पर लिस्ट भेजें
+            </a>
+        </div>
+
+        <!-- Footer Note -->
+        <div class="poster-footer">
+            सम्पर्क सूत्र: +91 9411871382 | हमेशा आपकी सेवा में तत्पर।
+        </div>
+    </div>
+
+</body>
+</html>
